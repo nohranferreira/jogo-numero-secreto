@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+
+:root {
+  --font-family: "Montserrat", sans-serif;
+  --bg-color: linear-gradient(320deg, #0aa1dd 2%, #b5c2c5 100%);
+  --primary-color: #e8f9fd;
+  --btn-degrade-color: linear-gradient(260deg, #e8f9fd 2%, #74c7e8 100%);
+}
+
+body {
+  background-image: var(--bg-color);
+  color: var(--primary-color);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  font-family: var(--font-family);
+}
+
+h1 {
+  font-size: 5em;
+  border: 1px solid var(--primary-color);
+  border-radius: 15px;
+  box-shadow: 10px 10px 15px #000;
+}
+
+h2 {
+  font-size: 4em;
+  border: 1px solid var(--primary-color);
+  border-radius: 15px;
+  box-shadow: 10px 10px 15px #000;
+  padding: 10px;
+  margin: 20px;
+}
+
+h3 {
+  font-size: 2em;
+  margin-top: 20px;
+}
+
+.mensagem {
+  font-size: 1.5em;
+  margin-top: 40px;
+}
+
+.box {
+  border: 2px solid var(--primary-color);
+  display: inline-block;
+  font-size: 4em;
+  padding: 10px;
+  margin: 20px;
+}
+
+.btn-jogar {
+  padding: 8px 15px;
+  border: 0;
+  background-image: var(--btn-degrade-color);
+  border-radius: 50px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.btn-jogar:hover {
+  color: var(--primary-color);
+  background: var(--bg-color);
+  border: 1px solid #3fd5ff;
+}
